@@ -55,9 +55,9 @@
   /* Display a blue point marker with pop-up text */
   L.marker([41.77, -72.69]).addTo(map) // EDIT latitude, longitude to re-position marker
   .bindPopup("It's first marker"); // EDIT pop-up text message
-
-  L.marker([41.05, -72.55]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup("It's second marker"); // EDIT pop-up text message
+    
+    L.marker([38.05, -72.55]).addTo(map)
+      .bindPopup("It's second marker"); // EDIT pop-up text message
     
   /* Upload Latitude/Longitude markers from data.csv file, show Title in pop-up, and override initial center and zoom to fit all in map */
   // var customLayer = L.geoJson(null, {
