@@ -21,7 +21,7 @@
 <body>
 
   <!-- Display the map and title with HTML division tags  -->
-  <div id="map-title">Insert your map title</div>
+  <div id="map-title">My first map published from GitHub</div>
   <div id="map"></div>
 
   <!-- Create the map content with JavaScript (.js) -->
@@ -54,9 +54,9 @@
 
   /* Display a blue point marker with pop-up text */
   L.marker([41.77, -72.69]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup("My first map published from GitHub"); // EDIT pop-up text message
+  .bindPopup("It's first marker"); // EDIT pop-up text message
 
-  L.marker([41.55, -72.55]).addTo(map) // EDIT latitude, longitude to re-position marker
+  L.marker([41.05, -72.55]).addTo(map) // EDIT latitude, longitude to re-position marker
   .bindPopup("It's second marker"); // EDIT pop-up text message
     
   /* Upload Latitude/Longitude markers from data.csv file, show Title in pop-up, and override initial center and zoom to fit all in map */
